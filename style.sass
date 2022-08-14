@@ -1,0 +1,305 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body
+    font-family: 'Raleway', sans-serif
+    font-weight: 400
+    width: 100%
+    h2
+        font-weight: 400
+        font-size: 40px
+    h3,
+    .title-p
+        font-weight: 700
+    h4
+        font-size: 25px
+        font-weight: 400
+    p
+        font-size: 20px
+    button
+        cursor: pointer
+header
+    width: 100%
+    height: 100vh
+    background-image: url("img/laboratory-tech-research.jpg")
+    background-repeat: no-repeat
+    background-position: center center
+    background-size: cover
+    background-attachment: fixed;
+    nav
+        background-color: rgba(72, 72, 72, 0.3)
+        border-bottom: 1px solid #ffffff
+        img
+            height: 60px
+            margin: 10px
+            margin-left: 20px
+        ul
+            float: right
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            align-items: center
+            padding: 30px
+            li
+                list-style: none
+                a
+                    color: #ffffff
+                    text-decoration: none
+                    margin: 20px
+                    font-size: 20px
+                    transition: border-bottom 0.1s ease-in-out
+                    &:hover
+                        border-bottom: 1px solid #ffffff
+    .welcome
+        padding: 20vh 10%
+        width: 100%
+        h1
+            color: #ffffff
+            font-size: 60px
+            margin: auto
+            text-align: center
+            margin-bottom: 60px
+            display: block
+            
+        .begin
+            font-size: 40px
+            background-color: transparent
+            color: #ffffff
+            border: 4px solid #ffffff
+            padding: 15px
+            text-align: center
+            text-decoration: none
+            display: block
+            margin: auto
+            width: 300px
+            transition: color 0.3s, background-color 0.3s ease-in-out
+        .begin:hover
+            color: #000000
+            background-color: #ffffff
+main
+    .company-message
+        padding: 80px
+        width: 80%
+        margin: auto
+        h2
+            text-align: center
+            margin-bottom: 20px
+    .tech-section
+        background-image: url("img/laboratory-tech.jpg")
+        height: 700px
+        background-position: center
+        background-size: cover
+        background-repeat: no-repeat
+        width: 100%
+        h2,
+        h3,
+        a
+            color: #ffffff
+            margin: 20px
+            margin-left: 5%
+        h3
+            padding-top: 150px
+        h2
+            width: 40%
+            margin-bottom: 60px
+        a
+            background-color: #116EBF
+            color: #ffffff
+            font-weight: 700
+            border: 0
+            padding: 20px
+            font-size: 20px
+            margin-top: 40px
+            text-decoration: none
+            transition: color 0.3s, background-color 0.3s ease-in-out
+            &:hover
+                color: #116EBF
+                background-color: #ffffff 
+    .opinions
+        padding: 60px
+        width: 100%
+        h2
+            margin: auto
+            text-align: center
+            margin-bottom: 30px
+        .clients
+            display: flex
+            justify-content: space-around
+            align-content: center
+            flex-direction: row
+            width: 90%
+            margin: auto
+            .client
+                text-align: center
+                width: 30%
+                h4
+                    margin: 10px
+                p
+                    margin-bottom: 7px
+                img
+                    height: 200px
+                    width: 200px
+                    border-radius: 100%
+                    display: block
+                    margin: auto
+    .projects
+        background-color: #02718B
+        color: #ffffff
+        padding: 80px
+        h2
+            text-align: center
+            margin-bottom: 50px
+        .projects-flex
+            display: flex
+            flex-direction: row
+            justify-content: center
+            margin: auto
+            ul
+                margin: auto 10%
+                li
+                    list-style: none
+                    font-size: 20px
+                    text-align: center
+                    margin-bottom: 20px
+    .news
+        padding: 60px 0
+        margin: auto
+        text-align: center
+        .news-grid
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: center
+            align-content: space-around
+            width: 80%
+            margin: auto
+            .news-card
+                width: 25%
+                background-color: #EFEFEF
+                margin: 40px
+                height: 400px
+                padding: 15px
+                border-radius: 10px
+                position: relative
+                .news-content
+                    height: 100%
+                    p
+                        text-align: right
+                    .date
+                        opacity: 0.6
+                        margin-bottom: 5px
+                    h4
+                        font-size: 35px
+                        text-align: left
+                        margin-top: 20px
+                .read-more
+                    position: absolute
+                    text-decoration: none
+                    color: #3449BF
+                    font-weight: 700
+                    bottom: 0px
+                    height: 10%
+                    left: 20px
+                    opacity: 0.9
+                    transition: text-decoration 0.2s ease-in-out
+                    &:hover
+                        text-decoration: underline
+                    i
+                        margin-left: 5px
+    .contact
+        background-color: #A0C003
+        padding: 60px
+        color: #ffffff
+        display: flex
+        flex-direction: row
+        h2
+            font-size: 50px
+            margin-bottom: 10px
+        .contact-content
+            width: 50%
+            .places
+                display: flex
+                flex-direction: row
+                margin-top: 50px
+                .place
+                    width: 50%
+                    h3
+                        font-size: 25px
+                    p
+                        margin: 10px 0
+footer
+    background-color: #4E4E4E
+    color: #ffffff
+    text-align: center
+    padding: 20px
+    p
+        margin: 15px 0 20px 0
+    a
+        text-decoration: none
+        color: #ffffff
+        i
+            margin: 0 10px
+@media screen and (max-width: 1216px)
+    main
+        .news
+            .news-grid
+                width: 95%
+                news-card
+                    width: 40%
+                    margin: 30px 10px
+@media screen and (max-width: 1024px)
+    header
+        nav
+            display: flex
+            flex-direction: column
+            a
+                margin: 10 auto
+                align-self: center
+            ul
+                float: none
+    main
+        .tech-section
+            h2
+                width: 70%
+        .opinions
+            padding: 60px 0
+            .clients
+                flex-direction: column
+                align-content: center
+                .client
+                    width: 90%
+                    margin: auto
+                    margin-bottom: 40px
+        .projects
+            padding: 80px 0
+            .projects-flex
+                ul
+                    margin: auto 10px
+                    width: 50%
+        .contact
+            flex-direction: column
+            .contact-content,
+            .map
+                margin: none
+                width: 100%
+            .contact-content
+                .contact-title
+                    text-align: center
+                .places
+                    width: 100%
+                    text-align: center
+                    margin-bottom: 30px
+@media screen and (max-width: 680px)
+    header
+        .welcome
+            padding: 60px 0
+    main
+        .company-message
+            padding: 80px 0
+        .news
+            .news-grid
+                flex-direction: column
+                .news-card
+                    width: 70%
+                    height: 350px
