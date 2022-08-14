@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+body h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+body h3,
+body .title-p {
+  font-weight: 700;
+}
+
+body h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+body p {
+  font-size: 20px;
+}
+
+body button {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/laboratory-tech-research.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header nav {
+  background-color: rgba(72, 72, 72, 0.3);
+  border-bottom: 1px solid #ffffff;
+}
+
+header nav img {
+  height: 60px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+header nav ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 20px;
+  -webkit-transition: border-bottom 0.1s ease-in-out;
+  transition: border-bottom 0.1s ease-in-out;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+header .welcome {
+  padding: 20vh 10%;
+  width: 100%;
+}
+
+header .welcome h1 {
+  color: #ffffff;
+  font-size: 60px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 60px;
+  display: block;
+}
+
+header .welcome .begin {
+  font-size: 40px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 4px solid #ffffff;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  width: 300px;
+  -webkit-transition: color 0.3s, background-color 0.3s ease-in-out;
+  transition: color 0.3s, background-color 0.3s ease-in-out;
+}
+
+header .welcome .begin:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+main .company-message {
+  padding: 80px;
+  width: 80%;
+  margin: auto;
+}
+
+main .company-message h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .tech-section {
+  background-image: url("img/laboratory-tech.jpg");
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+main .tech-section h2,
+main .tech-section h3,
+main .tech-section a {
+  color: #ffffff;
+  margin: 20px;
+  margin-left: 5%;
+}
+
+main .tech-section h3 {
+  padding-top: 150px;
+}
+
+main .tech-section h2 {
+  width: 40%;
+  margin-bottom: 60px;
+}
+
+main .tech-section a {
+  background-color: #116EBF;
+  color: #ffffff;
+  font-weight: 700;
+  border: 0;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+  text-decoration: none;
+  -webkit-transition: color 0.3s, background-color 0.3s ease-in-out;
+  transition: color 0.3s, background-color 0.3s ease-in-out;
+}
+
+main .tech-section a:hover {
+  color: #116EBF;
+  background-color: #ffffff;
+}
+
+main .opinions {
+  padding: 60px;
+  width: 100%;
+}
+
+main .opinions h2 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main .opinions .clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+
+main .opinions .clients .client {
+  text-align: center;
+  width: 30%;
+}
+
+main .opinions .clients .client h4 {
+  margin: 10px;
+}
+
+main .opinions .clients .client p {
+  margin-bottom: 7px;
+}
+
+main .opinions .clients .client img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+
+main .projects {
+  background-color: #02718B;
+  color: #ffffff;
+  padding: 80px;
+}
+
+main .projects h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .projects .projects-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+main .projects .projects-flex ul {
+  margin: auto 10%;
+}
+
+main .projects .projects-flex ul li {
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .news {
+  padding: 60px 0;
+  margin: auto;
+  text-align: center;
+}
+
+main .news .news-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+main .news .news-grid .news-card {
+  width: 25%;
+  background-color: #EFEFEF;
+  margin: 35px;
+  height: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+main .news .news-grid .news-card .news-content {
+  height: 100%;
+}
+
+main .news .news-grid .news-card .news-content p {
+  text-align: right;
+}
+
+main .news .news-grid .news-card .news-content .date {
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+main .news .news-grid .news-card .news-content h4 {
+  font-size: 35px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+main .news .news-grid .news-card .read-more {
+  position: absolute;
+  text-decoration: none;
+  color: #3449BF;
+  font-weight: 700;
+  bottom: 0px;
+  height: 10%;
+  left: 20px;
+  opacity: 0.9;
+  -webkit-transition: -webkit-text-decoration 0.2s ease-in-out;
+  transition: -webkit-text-decoration 0.2s ease-in-out;
+  transition: text-decoration 0.2s ease-in-out;
+  transition: text-decoration 0.2s ease-in-out, -webkit-text-decoration 0.2s ease-in-out;
+}
+
+main .news .news-grid .news-card .read-more:hover {
+  text-decoration: underline;
+}
+
+main .news .news-grid .news-card .read-more i {
+  margin-left: 5px;
+}
+
+main .contact {
+  background-color: #A0C003;
+  padding: 60px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .contact h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+main .contact .contact-content {
+  width: 50%;
+}
+
+main .contact .contact-content .places {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+}
+
+main .contact .contact-content .places .place {
+  width: 50%;
+}
+
+main .contact .contact-content .places .place h3 {
+  font-size: 25px;
+}
+
+main .contact .contact-content .places .place p {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #4E4E4E;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 15px 0 20px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a i {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1216px) {
+  main .news .news-grid {
+    width: 95%;
+  }
+  main .news .news-grid news-card {
+    width: 40%;
+    margin: 30px 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header nav a {
+    margin: 10 auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  header nav ul {
+    float: none;
+  }
+  main .tech-section h2 {
+    width: 70%;
+  }
+  main .opinions {
+    padding: 60px 0;
+  }
+  main .opinions .clients {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  main .opinions .clients .client {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  main .projects {
+    padding: 80px 0;
+  }
+  main .projects .projects-flex ul {
+    margin: auto 10px;
+    width: 50%;
+  }
+  main .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .contact .contact-content,
+  main .contact .map {
+    margin: none;
+    width: 100%;
+  }
+  main .contact .contact-content .contact-title {
+    text-align: center;
+  }
+  main .contact .contact-content .places {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header .welcome {
+    padding: 60px 0;
+  }
+  main .company-message {
+    padding: 80px 0;
+  }
+  main .news .news-grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .news .news-grid .news-card {
+    width: 70%;
+    height: 350px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
